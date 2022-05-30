@@ -1,0 +1,422 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Paginas html Desktop*/
+    body {
+
+    background-image: url("/imagenes/pngtree-abstract-background-technology-of-data-applications-image_555017.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    }
+
+    footer {
+        background-color: goldenrod;
+        margin-top: 80px;
+    }
+    
+    header h1 {
+        background-color: burlywood;
+        text-align: center;
+        color: darkred;
+        font-style: italic;
+    }
+    
+    .navegacion {
+        display: flex;
+        justify-content: flex-end;
+        background-color: burlywood;
+        margin-bottom: 20px;
+        list-style-type: none;
+        padding: 3px;
+        font-size: 14pt;
+    }
+    .navegacionofertas {
+        display: flex;
+        justify-content: flex-end;
+        background-color: burlywood;
+        margin-bottom: 20px;
+        list-style-type: none;
+        padding: 3px;
+        font-size: 14pt;
+    }
+
+    .navegacionofertas li {
+         
+            list-style-type: none;
+            display: inline;
+            padding: 10px;
+            font-size: 14pt;
+    
+        }
+    
+    
+    ul li a:hover {
+        border-bottom: 2px solid #ffffff;
+        color: red;
+        
+    }
+
+    .navegacion li {
+        list-style-type: none;
+        display: inline;
+        padding: 10px;
+        font-size: 14pt;
+
+    }
+
+    h2 {
+        text-align: center;
+        margin-bottom: 15px;
+        font-style: italic;
+    }
+    .social {
+        text-align: center;
+    }
+    .seguinos {
+    
+     text-align: center;
+    }
+
+    a:link {
+        text-decoration: none;
+        }
+
+
+
+ .aprovecha {
+     text-align: center;
+     color: #ffffff;
+    }
+
+    .Ofertass {
+        text-align: center;
+        color: #ffffff;
+    }
+
+    .ofertas {
+        
+        text-decoration: none;
+        border: 5px solid black;
+        width: 200px;
+        height: 50px;
+        text-align: center;
+    }
+    .tienda {
+        border: 5px solid black;
+        text-decoration: none;
+        width: 200px;
+        height: 50px;
+        text-align: center;
+    }
+    .Soporte {
+    
+        border: 4px solid black;
+        width: 200px;
+        height: 50px;
+        text-align: center;
+    }
+    .Sobrenosotros {
+            border: 4px solid black;
+            width: 200px;
+            height: 50px;
+            text-align: center;
+    }
+    .Botones {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          
+    }
+
+    .social {
+        padding: 20px;
+    }
+
+
+
+
+.lonuevo1 {
+    padding: 10px;
+    width: 200px;
+    height: auto;
+    max-height: 30%; 
+}
+.lonuevoimg {
+    display: flex;
+    justify-content: center;
+    
+}
+.valoradoimg {
+    display: flex;
+    justify-content: center;
+}
+
+.valorado1 {
+    padding: 10px;
+    height: 150px;
+    
+}
+
+
+.h3lonuevo {
+    text-align: center;
+    color: yellowgreen;
+}
+.h3valorado {
+    text-align: center;
+    color: yellowgreen;
+}
+.Categoriass {
+    text-align: center;
+    color: yellowgreen;
+}
+.flex-container {
+    border: 2px solid black;
+    padding: 20px;
+    margin: 11px;
+    background-color: #4bc25b;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto ;
+    grid-template-rows: auto auto;
+}
+
+.Caja {
+       width: 100px;
+       height: 100px;
+       border: 3px solid black ;
+       background-color: rgb(165, 148, 148);
+       line-height: 100px;
+       text-align: center;
+       margin: 5px;
+       
+}
+.categorias {
+    background-color: gray;
+}
+
+.parrafoinicio1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.nombre {
+    padding: 20px;
+    color: #ffffff;
+}
+.email {
+    color: #ffffff;
+}
+.pformulario {
+    text-align: center;
+}
+.formu {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+
+
+.tiendaofertas {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+/* Imagenes inicio */
+.tienda1 {
+    padding: 5px;
+    width: auto;
+    max-width: 20%;
+    height: auto;
+    max-width: 26%;
+}
+.tienda2 {
+    padding: 5px;
+    width: auto;
+    max-width: 24%;
+    height: auto;
+    max-height: 30%;
+}
+.oferta1 {
+    padding: 5px;
+    width: auto;
+    max-width: 20%;
+    height: auto;
+    max-height: 30%;
+}
+.oferta2 {
+    padding: 5px;
+    width: auto;
+    max-width: 20%;
+    height: auto;
+    max-height: 30%;
+}
+
+
+
+.pformulario {
+    color: #ffffff;
+}
+
+#cajasobre { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    color: #ffffff; 
+    font-size: 18px; 
+    font-weight: 400px; 
+    text-align: center; 
+    background: #2e60df; 
+    margin: 0px auto; 
+    overflow: hidden; 
+    padding: 1px; 
+    border: 1px solid #ffffff;
+    width: 400px;
+}
+.formularionosotros {
+    text-align: center;
+   
+}
+
+
+.flex-iframe {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+
+
+
+
+
+
+@media (max-width: 480px) {
+    /* General */
+
+    header {
+        width: 330px;
+    }
+    footer {
+        width: 350px;
+    }
+ 
+    /* Index */
+    .parrafoinicio1 {
+        display: flex;
+        flex-direction: column;
+        padding: 3px;
+    }
+    
+    .imgprincipal {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        width: 250px;
+        height: 170px;
+    }
+    .parrafoinicio2 {
+        padding: 3px;
+    }
+
+    .social {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        
+    }
+
+   /* Tienda */
+
+   .flex-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 2000px;
+}
+
+.h3lonuevo {
+    font-size: 50px;
+}
+
+.lonuevo1 {
+   height: 100px;
+   width: 150px;
+   
+}
+
+ .h3valorado {
+     font-size: 45px;
+ }
+
+ .lonuevoimg {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+
+.valoradoimg {
+    display: grid;
+    grid-template-columns: auto;
+    
+    
+}
+
+.social {
+ display: grid;
+ grid-template-columns: auto auto;
+ justify-content: center;
+ 
+}
+
+  /* Sobre nosotros */
+   .navegacion {
+       display: flex;
+       justify-content: center;
+   }
+
+
+  .iframe {
+       width: 300px;
+   }
+
+  .flex-iframe {
+      display: flex;
+      flex-direction: column;
+  }
+
+  #cajasobre {
+      width: 290px;
+  }
+  
+  
+  /* Soporte */
+
+  #textarea {
+      padding: 3px;
+  }
+
+
+  /* Ofertas */
+   .navegacionofertas {
+       padding: 15px;
+   }
+   .pOfertas {
+       padding: 30px;
+   }
+
+
+   
+}
+    
+    
+
+   
