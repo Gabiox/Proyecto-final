@@ -1,0 +1,13 @@
+<div class="formulario">
+        <p class="pformulario"> Para nosotros es un placer ayudar a nuestros clientes a despejar dudas, por favor rellene el
+            formulario a continuacion:</p>
+        <form class="formu" action="" method="get">
+        <span><div class="nombre"><label for="nombre">Nombre</label>
+           <input type="text" name="" id="" placeholder="Fulano"></div></span>
+           <span><div class="email"><label for="email">Email</label>
+           <input type="email" name="" id="" placeholder="soylindo@gmail.com"></div></span>
+            <span><br><div><label for="Asunto">Asunto</label></div>
+            <div id="textarea"><textarea name="Asunto" id="" cols="40" rows="10"></textarea></div>
+            Acepto los terminos de condiciones
+            <input type="checkbox" name="Acepta" value="1">
+            <div><input class="enviar" type="submit" value="Enviar"></div></span>

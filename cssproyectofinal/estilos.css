@@ -147,6 +147,10 @@
         text-align: center;
         transition: cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
     }
+
+    .contacto1 {
+        text-align: center;
+    }
     .Soporte:hover {
         cursor: pointer;
         transform: translateY(-5px);
@@ -367,7 +371,16 @@
 }
 
 
-
+.formulario {
+        max-width: 600px;
+        max-height: 650px;
+        padding: 25px;
+        border: 4px solid black;
+        background-color: #ffffff;
+        display: block;
+        margin: auto;
+        
+    }
 
 
  
@@ -472,9 +485,9 @@
   
   /* Soporte */
 
-  #textarea {
-      padding: 3px;
-  }
+    .formulario {
+        width: 450px;
+    }
 
 
   /* Ofertas */
