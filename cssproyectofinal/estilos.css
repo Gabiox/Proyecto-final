@@ -7,11 +7,13 @@
 /* Paginas html Desktop*/
     body {
 
-    background-image: url("/imagenes/pngtree-abstract-background-technology-of-data-applications-image_555017.jpg");
+    background-image: url("/img/pngtree-abstract-background-technology-of-data-applications-image_555017.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     }
+
+  
 
     footer {
         background-color: goldenrod;
@@ -20,11 +22,15 @@
     
     header {
         background-color: burlywood;
-        text-align: center;
         color: darkred;
-        font-style: italic;
     }
+
+    .navbar {
+        background-color: burlywood;
+    }
+
     
+  
     .navegacion {
         display: flex;
         justify-content: flex-end;
@@ -219,7 +225,7 @@
     border: 2px solid black;
     padding: 20px;
     margin: 11px;
-    background-color: #4bc25b;
+    background-color: #ffffff;
     display: grid;
     grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto ;
     grid-template-rows: auto auto;
@@ -364,15 +370,15 @@
 
 
 
-
+ 
 @media (max-width: 480px) {
     /* General */
 
     header {
-        width: 330px;
+        width: 480px;
     }
     footer {
-        width: 350px;
+        width: 480px;
     }
  
     /* Index */
@@ -451,7 +457,7 @@
 
 
   .iframe {
-       width: 300px;
+       width: 480px;
    }
 
   .flex-iframe {
