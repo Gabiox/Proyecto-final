@@ -67,7 +67,7 @@
                 transform: translateY(2px);
             }    
             }
-            }    
+            }   
         
     /*                                       Tienda                                           */
 .h3lonuevo {
@@ -194,11 +194,13 @@
     }
 }
    /* Imagenes */
-.tiendaofertas {
+
+.tiendaofertas 
+     {
     display: flex;
       flex-flow: row wrap;
       justify-content: space-between;
-      padding: 10px;}
+      padding: 10px;  }
 
     .tienda1 {
         padding: 5px;
@@ -229,15 +231,15 @@
         height: auto;
         max-height: 30%;
     }
+    
 
      /* Sobre nosotros */
      
      .h2quienes {
         color: rgb(255, 255, 255);
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    }
-     #cajasobre { 
-#cajasobre { 
+        }
+    
      #cajasobre { 
     display: flex;
     justify-content: center;
@@ -279,7 +281,7 @@
 
    /* Paginas html @media */
 
-@media (max-width: 480px) {
+   @media (max-width: 480px) {
     /* General */
 
     header {
@@ -365,7 +367,11 @@
       }
  }
   /* Soporte */
+  .formulario  {
+    width: 450px;
+}
+}
 
-    .formulario {
-        width: 450px;
-    }
+   
+   
+   

@@ -59,7 +59,7 @@ h2 {
     .contacto1 .enviar:active {
       transform: translateY(2px); }
 
-/* Tienda */
+/*                                       Tienda                                           */
 .h3lonuevo {
   text-align: center;
   color: yellowgreen; }
@@ -91,7 +91,7 @@ h2 {
     .flex-container .Caja a:link {
       text-decoration: none; }
 
-/* +++Inicio+++ */
+/*                                          +++Inicio+++                                            */
 .Botones {
   display: flex;
   flex-direction: row;
@@ -295,7 +295,4 @@ h2 {
       width: 290px; }
   /* Soporte */
   .formulario {
-    width: 450px; }
-  /* Ofertas */
-  .pOfertas {
-    padding: 30px; } }
+    width: 450px; } }
