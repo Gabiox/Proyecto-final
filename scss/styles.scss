@@ -24,9 +24,8 @@
     }
     
     header {
-        background-color: $colorh3;
-        font-family: $tipografia1 ;
-
+        background-image: linear-gradient(rgb(253, 228, 0), rgb(201, 240, 183));
+        font-family: $tipografia3;
     }
 
     h2 {
@@ -49,12 +48,12 @@
 
     .Ofertass {
         text-align: center;
-        color: #ffffff;
+        color: $colorprincipal;
     }
 
     .pOfertas {
         border: 1px solid black;
-        background-color: #ffffff;
+        background-color: $colorprincipal;
 
         .pofertas {
             padding: 8px;
@@ -98,7 +97,7 @@
     border: 2px solid black;
     padding: 20px;
     margin: 11px;
-    background-color: #ffffff;
+    background-color: $colorprincipal;
     display: grid;
     grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto ;
     grid-template-rows: auto auto;
@@ -211,14 +210,14 @@
     .PI1 {
         font-size: 20pt;
        border: 2px solid black;
-       background-color: #ffffff;
+       background-color: $colorprincipal;
     }
 }
 .parrafoinicio2 {
     margin: 10px;
     padding: 5px;
     border: 2px solid black;
-    background-color: #ffffff;
+    background-color: $colorprincipal;
 
     .pinicio2 {
         padding: 10px;
@@ -275,7 +274,7 @@
          padding: 3px;
          margin: 8px;
          border: 1px solid black;
-         background-color: #ffffff;
+         background-color: $colorprincipal;
          font-size: 15pt;
 
          .PS1 {
@@ -297,7 +296,7 @@
     justify-content: center;
     align-items: center;
     font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
-    color: #ffffff; 
+    color: $colorprincipal; 
     font-size: 18px; 
     font-weight: 400px; 
     text-align: center;
@@ -305,7 +304,7 @@
     margin: 0px auto;
     overflow: hidden; 
     padding: 1px; 
-    border: 2px solid #ffffff;
+    border: 2px solid $colorprincipal;
     width: 370px;
 }
 
@@ -322,7 +321,7 @@
         max-height: 650px;
         padding: 25px;
         border: 4px solid black;
-        background-color: #ffffff;
+        background-color: $colorprincipal;
         display: block;
         margin: auto;
     }
