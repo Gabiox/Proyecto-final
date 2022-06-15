@@ -14,17 +14,18 @@
     }
 
     footer {
-        background-color: goldenrod;
+        background-image: linear-gradient(rgb(253, 228, 0), rgb(247, 41, 185));
         margin-top: 80px;
     }
     
     header {
+        
         background-color: burlywood;
         color: darkred;
     }
 
     .navbar {
-        background-color: burlywood;
+        background-color: rgb(241, 168, 72);
     }
     h2 {
         text-align: center;
@@ -47,6 +48,15 @@
     .Ofertass {
         text-align: center;
         color: #ffffff;
+    }
+
+    .pOfertas {
+        border: 1px solid black;
+        background-color: #ffffff;
+
+        .pofertas {
+            padding: 8px;
+        }
     }
     /*                                        +++Soporte+++                                     */
     .contacto1 {
@@ -185,16 +195,31 @@
 }
 
   /* Parrafos inicio */
+
+  .h2inicio {
+      color: aqua;
+      font-family: 'Courier New', Courier, monospace;
+  }
+
 .parrafoinicio1 {
     display: flex;
     align-items: center;
     padding: 5px;
+
+    .PI1 {
+        font-size: 20pt;
+       border: 2px solid black;
+       background-color: #ffffff;
+    }
     .parrafoinicio2 {
         padding: 5px;
     }
 }
    /* Imagenes */
 
+.imgprincipal {
+    padding: 2px;
+}
 .tiendaofertas 
      {
     display: flex;
@@ -234,12 +259,29 @@
     
 
      /* Sobre nosotros */
-     
-     .h2quienes {
-        color: rgb(255, 255, 255);
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+     .PSN {
+         padding: 3px;
+         margin: 8px;
+         border: 1px solid black;
+         background-color: #ffffff;
+         font-size: 15pt;
+
+         .PS1 {
+            padding: 5px;
         }
-    
+         .PS2 {
+             padding: 5px;
+         }
+
+        .h2quienes {
+            color: rgb(231, 89, 89);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-decoration: underline black;
+        }
+     }
+     
      #cajasobre { 
     display: flex;
     justify-content: center;
@@ -255,9 +297,6 @@
     padding: 1px; 
     border: 2px solid #ffffff;
     width: 370px;
-}
-.PS1 {
-    color: #78ee88;
 }
 
 .formularionosotros {
