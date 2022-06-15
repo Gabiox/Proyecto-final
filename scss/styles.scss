@@ -1,8 +1,12 @@
+@import 'colores';
+@import 'tipografias';
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 
 /* Paginas html Desktop*/
     /* General */
@@ -16,17 +20,15 @@
     footer {
         background-image: linear-gradient(rgb(253, 228, 0), rgb(247, 41, 185));
         margin-top: 80px;
+        
     }
     
     header {
-        
-        background-color: burlywood;
-        color: darkred;
+        background-color: $colorh3;
+        font-family: $tipografia1 ;
+
     }
 
-    .navbar {
-        background-color: rgb(241, 168, 72);
-    }
     h2 {
         text-align: center;
         margin-bottom: 15px;
@@ -82,15 +84,15 @@
     /*                                       Tienda                                           */
 .h3lonuevo {
     text-align: center;
-    color: yellowgreen;
+    color: $colorh3;
 }
 .h3valorado {
     text-align: center;
-    color: yellowgreen;
+    color: $colorh3;
 }
 .Categoriass {
     text-align: center;
-    color: yellowgreen;
+    color: $colorh3;
 }
 .flex-container {
     border: 2px solid black;

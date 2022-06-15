@@ -16,11 +16,8 @@ footer {
   margin-top: 80px; }
 
 header {
-  background-color: burlywood;
-  color: darkred; }
-
-.navbar {
-  background-color: #f1a848; }
+  background-color: #fc9b41;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
 
 h2 {
   text-align: center;
