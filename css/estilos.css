@@ -175,8 +175,14 @@ h2 {
     font-size: 20pt;
     border: 2px solid black;
     background-color: #ffffff; }
-  .parrafoinicio1 .parrafoinicio2 {
-    padding: 5px; }
+
+.parrafoinicio2 {
+  margin: 10px;
+  padding: 5px;
+  border: 2px solid black;
+  background-color: #ffffff; }
+  .parrafoinicio2 .pinicio2 {
+    padding: 10px; }
 
 /* Imagenes */
 .imgprincipal {
