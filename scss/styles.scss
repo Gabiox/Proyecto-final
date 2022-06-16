@@ -204,7 +204,7 @@
 
     .PI1 {
         font-size: 20pt;
-       border: 2px solid black;
+       border: map-get($estilos,border);
        background-color: $colorprincipal;
     }
 }
