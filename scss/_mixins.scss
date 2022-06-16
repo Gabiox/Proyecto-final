@@ -1,0 +1,9 @@
+@mixin caja_personalizada ($colorcategorias) {
+    background-color: $colorcategorias;
+    width: 100px;
+    height: 100px;
+    border: 3px solid black ;
+    line-height: 100px;
+    text-align: center;
+    margin: 5px;
+}
