@@ -1,3 +1,8 @@
+.Botones {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+
 * {
   margin: 0;
   padding: 0;
@@ -95,11 +100,6 @@ h2 {
       text-decoration: none; }
 
 /*                                          +++Inicio+++                                            */
-.Botones {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around; }
-
 /* Boton tienda */
 .tienda {
   background-image: linear-gradient(red, yellow);
