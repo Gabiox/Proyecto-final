@@ -14,7 +14,8 @@ body {
   background-image: url("/img/pngtree-abstract-background-technology-of-data-applications-image_555017.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center; }
+  background-position: center center;
+  background-attachment: fixed; }
 
 footer {
   background-image: linear-gradient(#fde400, #f729b9);
