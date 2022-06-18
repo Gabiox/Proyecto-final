@@ -11,15 +11,19 @@
 /* Paginas html Desktop*/
 /* General */
 body {
-  background-image: url("/img/pngtree-abstract-background-technology-of-data-applications-image_555017.jpg");
+  background-image: url("/img/css-background-effects-thumb.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
   background-attachment: fixed; }
 
+.footer {
+  padding-top: 50px; }
+
 footer {
-  background-image: linear-gradient(#fde400, #f729b9);
-  margin-top: 80px; }
+  background-image: url("/img/grunge-paint-background_1409-1337.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
 
 header {
   background-image: linear-gradient(#fde400, #c9f0b7);
@@ -47,9 +51,15 @@ h2 {
 
 .pOfertas {
   border: 1px solid black;
-  background-color: #ffffff; }
+  background-color: #ffffff;
+  margin: 30px; }
   .pOfertas .pofertas {
     padding: 8px; }
+
+.h3promociones {
+  color: skyblue;
+  margin-bottom: 22px;
+  text-align: center; }
 
 /*                                        +++Soporte+++                                     */
 .contacto1 {
@@ -67,6 +77,9 @@ h2 {
       transform: translateY(1px); }
     .contacto1 .enviar:active {
       transform: translateY(2px); }
+
+.Contactenos {
+  color: skyblue; }
 
 /*                                       Tienda                                           */
 .h3lonuevo {
