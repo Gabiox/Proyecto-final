@@ -348,3 +348,12 @@ h2 {
     flex-wrap: wrap;
     height: 500px;
     width: 95%; } }
+
+@media (max-width: 1200px) {
+  /*Tienda*/
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 520px;
+    width: 98%; } }
