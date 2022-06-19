@@ -49,12 +49,6 @@ h2 {
   text-align: center;
   color: #ffffff; }
 
-.Ofertas {
-  background-color: grey;
-  width: 1500px;
-  height: 445px;
-  padding-right: 130px; }
-
 .pOfertas {
   border: 1px solid black;
   background-color: #ffffff;
@@ -189,6 +183,7 @@ h2 {
   align-items: center;
   padding: 5px; }
   .parrafoinicio1 .PI1 {
+    padding: 10px;
     font-size: 20pt;
     border: 2px solid black;
     background-color: #ffffff; }
@@ -344,3 +339,12 @@ h2 {
   /* Soporte */
   .formulario {
     width: 450px; } }
+
+@media (max-width: 768px) {
+  /* Tienda */
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 95%; } }
