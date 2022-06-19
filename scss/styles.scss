@@ -100,10 +100,12 @@
 .h3lonuevo {
     text-align: center;
     color: $colorh3;
+    text-transform: capitalize;
 }
 .h3valorado {
     text-align: center;
     color: $colorh3;
+    text-transform: capitalize;
 }
 .Categoriass {
     text-align: center;
@@ -204,10 +206,19 @@
 }
 
   /* Parrafos inicio */
+    .parah2inicio {
+        border: 1px solid white;
+        background-color: #ffffff;
+    
+    }
 
   .h2inicio {
-      color: aqua;
+      color: rgb(255, 24, 24);
       font-family: 'Courier New', Courier, monospace;
+      margin-top: 10px;
+      text-transform: uppercase;
+      text-decoration: dotted;
+      
   }
 
 .parrafoinicio1 {
