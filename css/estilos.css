@@ -323,7 +323,7 @@ h2 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    height: 1000px;
+    height: 930px;
     width: 90%; }
   .h3lonuevo {
     font-size: 50px; }
@@ -384,4 +384,4 @@ h2 {
     flex-direction: row;
     flex-wrap: wrap;
     height: 370px;
-    width: 98%; } }
+    width: 99%; } }
