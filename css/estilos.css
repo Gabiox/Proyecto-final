@@ -34,11 +34,13 @@ h2 {
   margin-bottom: 15px; }
 
 .social {
-  text-align: center;
-  padding: 10px; }
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row; }
 
 .seguinos {
-  text-align: center; }
+  justify-content: center; }
 
 /*                              Ofertas                               */
 .aprovecha {
@@ -97,13 +99,12 @@ h2 {
   color: yellowgreen; }
 
 .flex-container {
-  border: 2px solid black;
   padding: 20px;
-  margin: 11px;
+  padding-bottom: 300px;
+  margin: 10px;
   background-color: #ffffff;
-  display: grid;
-  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto;
-  grid-template-rows: auto auto; }
+  display: flex;
+  flex-flow: row wrap; }
   .flex-container .Caja {
     background-color: #a59494;
     width: 100px;
@@ -123,6 +124,7 @@ h2 {
   width: 200px;
   height: 50px;
   text-align: center;
+  text-decoration: none;
   outline: 0;
   transition: cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s; }
   .tienda:hover {
@@ -207,7 +209,8 @@ h2 {
 
 /* Imagenes */
 .imgprincipal {
-  padding: 2px; }
+  width: 350px;
+  height: 300px; }
 
 .tiendaofertas {
   display: flex;
@@ -349,7 +352,15 @@ h2 {
   .formulario {
     width: 450px; } }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
+  /* General */
+  header {
+    width: 100%; }
+  footer {
+    width: 100%; }
+  .social {
+    display: flex;
+    flex-direction: row; }
   /* Tienda */
   .flex-container {
     display: flex;
@@ -358,11 +369,19 @@ h2 {
     height: 500px;
     width: 95%; } }
 
-@media (max-width: 1200px) {
+@media (min-width: 1200px) {
+  /* General */
+  header {
+    width: 100%; }
+  footer {
+    width: 100%; }
+  .social {
+    display: flex;
+    flex-flow: row wrap; }
   /*Tienda*/
   .flex-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    height: 520px;
+    height: 370px;
     width: 98%; } }
