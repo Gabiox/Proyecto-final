@@ -354,15 +354,15 @@
 
    /* Paginas html @media */
 
-   @media (min-width: 380px) {
+   @media (max-width: 360px) {
     /* General */
 
     header {
-        width: 380px;
+        width: 360px;
     }
     footer {
         
-        width: 360px;
+        width: 340px;
        
     }
  
@@ -429,7 +429,103 @@ justify-content: center;
 
   .iframe {
       padding: 5px;
-       width: 360px;
+       width: 340px;
+   }
+
+  .flex-iframe {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .container-sobre {
+         padding: 10px;
+       
+      #cajasobre {
+          width: 290px;
+      }
+ }
+  /* Soporte */
+  .formulario  {
+    width: 330px;
+}
+}
+
+
+@media (min-width:361px) {
+
+    header {
+        width: 360px;
+    }
+    footer {
+        
+        width: 340px;
+       
+    }
+ 
+    /* Index */
+    .parrafoinicio1 {
+        display: flex;
+        flex-direction: column;
+        padding: 3px;
+    }
+    
+    .imgprincipal {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        width: 250px;
+        height: 170px;
+    }
+    .parrafoinicio2 {
+        padding: 3px;
+    }
+    .social {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+    }
+
+   /* Tienda */
+
+   
+   .flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 1280px;
+    width: 90%;
+   }
+
+
+.h3lonuevo {
+font-size: 50px;
+}
+
+.h3valorado {
+ font-size: 45px;
+}
+
+.social {
+display: grid;
+grid-template-columns: auto auto;
+justify-content: center;
+
+}
+
+  /* Sobre nosotros */
+  
+   .PS1 {
+       padding: 5px;
+   }
+
+   .h2quienes {
+       padding: 10px;
+   }
+
+  .iframe {
+      padding: 5px;
+       width: 340px;
    }
 
   .flex-iframe {
