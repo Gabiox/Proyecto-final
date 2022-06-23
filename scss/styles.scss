@@ -354,14 +354,15 @@
 
    /* Paginas html @media */
 
-   @media (max-width: 480px) {
+   @media (min-width: 380px) {
     /* General */
 
     header {
-        width: 480px;
+        width: 380px;
     }
     footer {
-        width: 480px;
+        
+        width: 360px;
        
     }
  
@@ -396,7 +397,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    height: 930px;
+    height: 1280px;
     width: 90%;
    }
 
@@ -428,7 +429,7 @@ justify-content: center;
 
   .iframe {
       padding: 5px;
-       width: 470px;
+       width: 360px;
    }
 
   .flex-iframe {
@@ -445,7 +446,7 @@ justify-content: center;
  }
   /* Soporte */
   .formulario  {
-    width: 450px;
+    width: 330px;
 }
 }
 
