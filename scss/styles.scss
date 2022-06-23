@@ -40,6 +40,9 @@
         text-align: center;
         margin-bottom: 15px;
     }
+
+     
+
     .social {
         padding: 10px;
         display: flex;
@@ -292,8 +295,20 @@
     }
     
 
-     /* Sobre nosotros */
+                     /*                       +++ Sobre nosotros+++              */
 
+        .flex-iframe {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+        }
+                
+      .iframe {
+         display: flex;
+         justify-content: center;
+         min-width: 550px;
+         height: 300px;
+         }
 
      .PSN {
          padding: 3px;
@@ -317,9 +332,9 @@
      }
      
      #cajasobre { 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
     color: $colorprincipal; 
     font-size: 18px; 
@@ -457,9 +472,7 @@ justify-content: center;
         width: 360px;
     }
     footer {
-        
-        width: 340px;
-       
+        min-width: 330px;
     }
  
     /* Index */
@@ -493,7 +506,7 @@ justify-content: center;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    height: 1280px;
+    min-height: 1280px;
     width: 90%;
    }
 
@@ -525,7 +538,8 @@ justify-content: center;
 
   .iframe {
       padding: 5px;
-       width: 340px;
+     min-width: 361px;
+       
    }
 
   .flex-iframe {
@@ -547,6 +561,7 @@ justify-content: center;
 }
 
 
+
 @media (min-width:768px) {
     
     /* General */
@@ -559,12 +574,14 @@ justify-content: center;
         width: 100%;
     }
     
+
+    
     .social {
         display: flex;
         flex-direction: row;
         
     }
-    
+
     /* Tienda */
 
     .flex-container {
@@ -581,7 +598,7 @@ justify-content: center;
 @media (min-width:1200px) {
      
     /* General */
-    
+
     header {
         width: 100%;
     }
@@ -595,7 +612,25 @@ justify-content: center;
         flex-flow: row wrap;
         
     }
+
+    .parrafoinicio1 {
+        display: flex;
+        flex-direction: column;
+        padding: 3px;
+    }
     
+    .imgprincipal {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        width: 350px;
+        height: 300px;
+    }
+    .parrafoinicio2 {
+        padding: 3px;
+    }
+
     /*Tienda*/
 
     .flex-container {
@@ -605,4 +640,13 @@ justify-content: center;
         height: 370px;
         width: 99%;
     }
-}   
+
+
+  /* Soporte */
+
+  .formulario {
+    width: 600px ;
+  }
+
+
+}
